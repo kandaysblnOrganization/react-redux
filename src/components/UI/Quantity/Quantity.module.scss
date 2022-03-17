@@ -1,0 +1,6 @@
+.quantity {
+  @apply flex w-60 justify-between mb-5;
+  & > input{
+    @apply w-32 border-2 border-emerald-600 text-center px-3 focus:outline-none;
+  }
+}

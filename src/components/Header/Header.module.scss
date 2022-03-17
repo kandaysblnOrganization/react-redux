@@ -1,0 +1,20 @@
+.header {
+  @apply w-screen flex items-center justify-between relative bg-emerald-600 py-1 px-5;
+  &__btn {
+    @apply bg-transparent border-none relative;
+    & img{
+      @apply w-10 h-10;
+    }
+    & p {
+      @apply text-black bg-amber-50 absolute right-0.5 bottom-0 rounded-xl w-5 h-5 flex items-center justify-center text-sm;
+    }
+  }
+
+  &__inner {
+    @apply absolute top-24 right-0 hidden shadow-md p-5 rounded-md w-96 bg-emerald-600 text-white;
+  }
+
+  &__carts {
+    @apply flex items-center text-white;
+  }
+}
